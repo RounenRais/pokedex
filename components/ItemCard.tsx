@@ -37,7 +37,7 @@ export default async function ItemCard({ name }: ItemCardProps) {
               #{item.id.toString().padStart(3, '0')}
             </span>
             <span className="rounded-full border border-amber-200/20 bg-amber-300/10 px-2 py-0.5 text-[11px] text-amber-100">
-              {item.cost}$
+              {item.cost}¥
             </span>
           </div>
 
